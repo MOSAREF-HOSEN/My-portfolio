@@ -5,10 +5,10 @@ const AboutRow = () => {
         <div>
             <div class="hero min-h-screen bg-base-200">
                 <div class="lg:grid grid-cols-2 gap-3 p-1">
-                    <img src={about} class="" />
+                    <img data-aos="zoom-in" src={about} class="" />
                     <div>
                         <p className='text-secondary font-bold'>About Me</p>
-                        <div className='mt-12'>
+                        <div className='mt-12' data-aos="zoom-in-left">
                             <h1 class="text-5xl font-bold">Who I Am And <br /> What I Do</h1>
                             <p class="py-6 text-black font-bol">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde possimus quaerat quam dolorum ipsa laboriosam, repudia illum amet inventore facilis, eius libero.
 

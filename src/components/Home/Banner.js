@@ -2,11 +2,11 @@ import React from 'react';
 import banner from '../../assets/home.png'
 const Banner = () => {
     return (
-        <div>
-            <div class="hero min-h-screen bg-white">
+        <div >
+            <div class="hero min-h-screen bg-white ">
                 <div class="pb-0 hero-content flex-col lg:flex-row-reverse">
-                    <img src={banner} class="image-full w-auto" />
-                    <div>
+                    <img data-aos="fade-left" src={banner} class="image-full w-auto" />
+                    <div data-aos="fade-right">
                         <h1 class="text-5xl font-bold text-secondary">I AM A <br /> WEB DEVELOPER</h1>
                         <p class="py-6 text-gray-400">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi. Lorem ipsum dolor sit amet.</p>
                         <div className="scoialIcon">

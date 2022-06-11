@@ -24,7 +24,7 @@ const About = () => {
             {
                 data.map((item)=>{
                     return(
-                        <div className='p-12'>
+                        <div className='p-12' data-aos="zoom-in-left">
                             <h1 className='text-4xl text-[#38d16a] font-bold'>{item.id}</h1>
                             <h2 className='text-white text-2xl font-mono font-bold'>{item.heading}</h2>
                             <p className='text-gray-300'><small>{item.desc}</small></p>
