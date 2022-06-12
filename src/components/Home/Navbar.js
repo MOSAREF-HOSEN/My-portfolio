@@ -3,19 +3,16 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     const manuItems = <>
+        {/* <a href="#about"> about </a> */}
         <li className='hover:bg-green-500 text-orange-400 uppercase font-semibold rounded'><Link to='/'>Home</Link></li>
-        <li className='hover:bg-green-500 text-orange-400 uppercase font-semibold rounded'><Link to='/about'>About</Link></li>
+        <li className='hover:bg-green-500 text-orange-400 uppercase font-semibold rounded'><Link to='#about'>About</Link></li>
         <li className='hover:bg-green-500 text-orange-400 uppercase font-semibold rounded'><Link to='/skills'>Skills</Link></li>
         <li className='hover:bg-green-500 text-orange-400 uppercase font-semibold rounded'><Link to='/review'>Review</Link></li>
         <li className='hover:bg-green-500 text-orange-400 uppercase font-semibold rounded'><Link to='/contact'>contact</Link></li>
-        {/* {
-            user ? <li><Link to='/dashbord'>Dashbord</Link></li> : ''
 
-        }
-        <li>{user ? <button onClick={logout} className="btn btn-ghost">sign Out</button> : <Link to='/signup'>Login</Link>}</li> */}
     </>
     return (
-        <div className="navbar bg-black ">
+        <div className="navbar bg-bl ">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex="0" className="btn btn-ghost lg:hidden">
@@ -25,7 +22,7 @@ const Navbar = () => {
                         {manuItems}
                     </ul>
                 </div>
-                <a className="btn btn-ghost normal-case text-green-700 text-2xl font-serif ">GOLAP MOSTOFA</a>
+                <a className="btn btn-ghost normal-case text-transparent bg-clip-text bg-gradient-to-br from-emerald-400 to-amber-500 text-2xl font-serif ">GOLAP MOSTOFA</a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal p-0">
