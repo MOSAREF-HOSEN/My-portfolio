@@ -52,16 +52,16 @@ const Serviec = () => {
         },
     ]
     return (
-        <div>
+        <div className='mt-12'>
             <h1 className='text-indigo-600 text-center text-xl uppercase font-bold'>our</h1>
-        <h2 className='uppercase text-center
+            <h2 className='uppercase text-center
          font-bold text-3xl text-[#38d16a] mt-4'>servives</h2>
-            <div className='grid grid-cols-4 gap-6'>
+            <div className='lg:grid grid-cols-4 gap-6'>
                 {
                     data.map(pd => {
                         return (
-                            <div class="shadow-xl rounded-sm bg-black">
-                                <div class="py-auto flex justify-center items-center  ">
+                            <div data-aos="flip-left" class="shadow-xl rounded-sm bg-black  ">
+                                <div class="py-auto flex justify-center items-center rounded ">
                                     <img src={pd.img} alt="" />
                                     <h2 class=" text-2xl uppercase text-bold text-green-500 text-center">{pd.name}</h2>
 

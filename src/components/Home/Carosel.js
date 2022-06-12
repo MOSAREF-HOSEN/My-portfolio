@@ -2,7 +2,7 @@ import React from 'react';
 
 const Carosel = () => {
     return (
-        <div class="card w-96 bg-base-100 shadow-xl">
+        <div class="card  bg-base-100 shadow-xl">
             <div class="card-body">
                 <div class="carousel w-full">
                     <div id="slide1" class="carousel-item relative w-full">
@@ -22,6 +22,7 @@ const Carosel = () => {
                    
                 </div>
             </div>
+            
         </div>
     );
 };
