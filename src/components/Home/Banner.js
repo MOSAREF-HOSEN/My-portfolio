@@ -1,5 +1,5 @@
 import React from 'react';
-import banner from '../../assets/home.png'
+import banner from '../../img/me4.png'
 const Banner = () => {
     return (
         <div >
@@ -7,8 +7,9 @@ const Banner = () => {
                 <div class="pb-0 hero-content flex-col lg:flex-row-reverse">
                     <img data-aos="fade-left" src={banner} class="image-full w-auto" />
                     <div data-aos="fade-right">
-                        <h1  class="text-5xl font-bold text-secondary">I AM A <br /> WEB DEVELOPER</h1>
-                        <p class="py-6 text-gray-400">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi. Lorem ipsum dolor sit amet.</p>
+                        <h1 class="text-5xl font-bold text-secondary">I AM A <br /> WEB DEVELOPER</h1>
+                        <p class="py-6 text-white font-thin text-xl">am a full-stack web developer with more than 1year of experience in web technology, I have advanced knowledge of React.js i created some
+                         unique project  UX  base functionality </p>
                         <div className="scoialIcon">
                             <i class="fa-brands fa-facebook"></i>
                             <i class="fa-brands fa-instagram"></i>
@@ -17,7 +18,7 @@ const Banner = () => {
                             <i class="fa-brands fa-pinterest"></i>
                             <i class="fa-brands fa-dribbble-square"></i>
                         </div>
-                        <button data-aos="zoom-in" className='primary-btn mt-12'>Contact Us</button>
+                        <button className='primary-btn mt-12'><a href='https://drive.google.com/file/d/10OecRui20uTciOon6qYPWZ9v5HLaHPRO/view?usp=sharing' target="_blank" data-aos="zoom-in" >Download CV</a></button>
                     </div>
                 </div>
             </div>

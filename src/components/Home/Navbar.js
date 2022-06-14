@@ -6,9 +6,9 @@ const Navbar = () => {
         {/* <a href="#about"> about </a> */}
         <li className='hover:bg-green-500 text-orange-400 uppercase font-semibold rounded'><Link to='/'>Home</Link></li>
         <li className='hover:bg-green-500 text-orange-400 uppercase font-semibold rounded'><Link to='#about'>About</Link></li>
-        <li className='hover:bg-green-500 text-orange-400 uppercase font-semibold rounded'><Link to='/skills'>Skills</Link></li>
-        <li className='hover:bg-green-500 text-orange-400 uppercase font-semibold rounded'><Link to='/review'>Review</Link></li>
-        <li className='hover:bg-green-500 text-orange-400 uppercase font-semibold rounded'><Link to='/contact'>contact</Link></li>
+        <li className='hover:bg-green-500 text-orange-400 uppercase font-semibold rounded'><Link to='/'>Skills</Link></li>
+        <li className='hover:bg-green-500 text-orange-400 uppercase font-semibold rounded'><Link to='/'>Review</Link></li>
+        <li className='hover:bg-green-500 text-orange-400 uppercase font-semibold rounded'><Link to='/'>contact</Link></li>
 
     </>
     return (

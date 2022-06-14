@@ -10,7 +10,7 @@ import Serviec from './Serviec';
 
 const Home = () => {
     return (
-        <div className='px-6 bg-black'>
+        <div className='px-6 bg-black  max-w-7xl mx-auto'>
           <Banner></Banner>
           <About></About>
           <AboutRow></AboutRow>
