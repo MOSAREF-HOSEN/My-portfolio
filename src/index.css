@@ -180,7 +180,19 @@ body {
   }
 }
 
-@keyframes flicker {
+
+.card1:hover{
+  box-shadow: 0px 4px 4px 4px rgb(0, 225, 255), 0 6px 20px 0 
+  rgb(78, 9, 252);
+  
+}
+
+
+
+
+
+
+/* @keyframes flicker {
   from {
     opacity: 1;
   }
@@ -304,4 +316,4 @@ body {
   to {
     opacity: 1;
   }
-}
+} */

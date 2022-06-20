@@ -4,7 +4,7 @@ const Contact = () => {
     return (
         <div id='about' style={{
             background: `url(${pop})`
-        }} className='bg-primary px-10 py-14 '>
+        }} className='bg-primary px-10 py-14 mt-12'>
             <div className='text-center pb-14 '>
                 <p className='text-xl font-bold text-transparent text-green-500'>
                     Contact Us

@@ -1,5 +1,5 @@
 import React from 'react';
-import banner from '../../img/herop.jpg'
+import banner from '../../img/hero1.jpg'
 import Particle from '../Particle';
 const Banner = () => {
     
@@ -12,7 +12,7 @@ const Banner = () => {
             
                 <div class="pb-0 hero-content flex-col lg:flex-row-reverse">
                 <Particle></Particle>
-                    <img data-aos="fade-left" src={banner} class="image-full w-auto" />
+                    <img  data-aos="fade-left" src={banner} class="bannerImg rounded-md" />
                     <div data-aos="fade-right">
                     
                         <h1 class="text-5xl font-bold text-secondary">I AM A <br /> WEB DEVELOPER</h1>

@@ -53,9 +53,9 @@ const Serviec = () => {
     ]
     return (
         <div className='mt-12'>
-            <h1 className='text-indigo-600 text-center text-xl uppercase font-bold'>our</h1>
-            <h2 className='uppercase text-center
-         font-bold text-3xl text-[#38d16a] mt-4'>servives</h2>
+            
+            <h2 className=' text-center
+         font-bold text-3xl text-[#38d16a] mt-4'>My Servives</h2>
             <div className='lg:grid grid-cols-4 gap-6 mt-4'>
                 {
                     data.map(pd => {

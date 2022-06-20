@@ -6,7 +6,7 @@ const Foter = () => {
     return (
         <div>
 
-            <footer class="footer footer-center p-10  text-base-content bg-black">
+            <footer class="footer footer-center p-10 mt-4   bg-[#354259] text-white">
                 {/* <Particle></Particle> */}
                 <div class="grid grid-flow-col gap-4">
                     <a class="link link-hover">About us</a>
