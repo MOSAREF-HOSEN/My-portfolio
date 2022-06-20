@@ -5,7 +5,7 @@ const Banner = () => {
     
     return (
         
-        <div >
+        <div id='/'>
         
             {/* partical end */}
             <div class="hero min-h-screen  ">
@@ -26,7 +26,7 @@ const Banner = () => {
                             <i class="fa-brands fa-pinterest"></i>
                             <i class="fa-brands fa-dribbble-square"></i>
                         </div>
-                        <button className='primary-btn mt-12'><a href='https://drive.google.com/file/d/10OecRui20uTciOon6qYPWZ9v5HLaHPRO/view?usp=sharing' target="_blank" data-aos="zoom-in" >Download CV</a></button>
+                        <button className='primary-btn mt-12'><a href='https://drive.google.com/file/d/1YlHp4IySJVOQTn3tKYiVCaPtSP4v9ryL/view?usp=sharing' target="_blank" data-aos="zoom-in" >Download CV</a></button>
                     </div>
                 </div>
             </div>

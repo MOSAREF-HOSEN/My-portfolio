@@ -3,16 +3,16 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     const manuItems = <>
-        {/* <a href="#about"> about </a> */}
-        <li className='hover:bg-green-500 text-orange-400 uppercase font-semibold rounded'><Link to='/'>Home</Link></li>
-        <li className='hover:bg-green-500 text-orange-400 uppercase font-semibold rounded'><Link to='#about'>About</Link></li>
-        <li className='hover:bg-green-500 text-orange-400 uppercase font-semibold rounded'><Link to='/'>Skills</Link></li>
+        <a href="#about"> about </a>
+        <li className='hover:bg-green-500 text-orange-400 uppercase font-semibold rounded'><a href='#/'>Home</a></li>
+        <li className='hover:bg-green-500 text-orange-400 uppercase font-semibold rounded'><a href='#about'>About</a></li>
+        <li className='hover:bg-green-500 text-orange-400 uppercase font-semibold rounded'><a href='#skills'>Skills</a></li>
         <li className='hover:bg-green-500 text-orange-400 uppercase font-semibold rounded'><Link to='/'>Review</Link></li>
-        <li className='hover:bg-green-500 text-orange-400 uppercase font-semibold rounded'><Link to='/'>contact</Link></li>
+        <li className='hover:bg-green-500 text-orange-400 uppercase font-semibold rounded'><a href='#contac'>contact</a></li>
 
     </>
     return (
-        <div className="navbar bg-bl ">
+        <div className="navbar bg-gray-800 top-0 sticky">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex="0" className="btn btn-ghost lg:hidden">
@@ -22,7 +22,7 @@ const Navbar = () => {
                         {manuItems}
                     </ul>
                 </div>
-                <a className="btn btn-ghost normal-case text-transparent bg-clip-text bg-gradient-to-br from-emerald-400 to-amber-500 text-2xl font-serif ">GOLAP MOSTOFA</a>
+                <a className="btn btn-ghost normal-case text-transparent bg-clip-text text-yellow-400 text-2xl font-serif ">Mosaref Hosen</a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal p-0">

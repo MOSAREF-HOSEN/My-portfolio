@@ -2,7 +2,8 @@ import React from 'react';
 
 const Cart = ({pd}) => {
     return (
-        <div class="  bg-[#354259] card1 rounded">
+        <div  data-aos="fade-up"
+        data-aos-duration="3000" class="  bg-[#354259] card1 rounded">
             <figure><img className='rounded-lg' src={pd.img} alt="Shoes " /></figure>
             <div class="card-body">
                 <h2 class="text-center text-white text-2xl">{pd.name}</h2>

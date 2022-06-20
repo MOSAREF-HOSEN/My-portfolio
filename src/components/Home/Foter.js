@@ -1,13 +1,13 @@
 import React from 'react';
-import Particle from '../Particle';
+
 
 const Foter = () => {
-   
+
     return (
         <div>
 
-            <footer class="footer footer-center p-10 mt-4   bg-[#354259] text-white">
-                {/* <Particle></Particle> */}
+            <footer data-aos="fade-up"
+                data-aos-duration="3000" class="footer footer-center p-10 mt-4   bg-[#354259] text-white">
                 <div class="grid grid-flow-col gap-4">
                     <a class="link link-hover">About us</a>
                     <a class="link link-hover">Contact</a>
@@ -31,3 +31,6 @@ const Foter = () => {
 };
 
 export default Foter;
+
+
+

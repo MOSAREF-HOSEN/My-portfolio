@@ -32,7 +32,7 @@ const Carosel = () => {
     ]
 
     return (
-        <div className='mt-36'>
+        <div id='skills' className='mt-36'>
             <h2 className='text-green-500  text-center font-bold text-2xl'>_My Projects_</h2>
 
             {/* cart */}
