@@ -8,10 +8,13 @@ const AboutRow = () => {
                     <img data-aos="zoom-in" src={about} class="" />
                     <div>
                         <p className='text-secondary text-2xl text-center font-bold'>my skllis</p>
-                        <div className='mt-4 p-12' data-aos="zoom-in-left">
+                        <div className='mt-4 p-10' data-aos="zoom-in-left">
 
-                            
-                            <div className='pt-4'>
+                            <p class=" text-white font-bol">
+                                I am full-stack  web application developer my
+                                technical skllis html5 css3 javascript bootstrap tealwiend css componets libary.and development some  technologys react reactRouter firebase stript express nodejs mongodb Familiar reactNative neextjs
+                            </p>
+                            <div className='pt-6'>
                             <a href='#about' data-aos="zoom-in" className='primary-btn mt-16'>Contact</a>
                             </div>
                         </div>

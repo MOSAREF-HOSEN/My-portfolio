@@ -3,6 +3,7 @@ import './App.css';
 import Home from './components/Home/Home';
 import Navbar from './components/Home/Navbar';
 import { Routes,Route } from "react-router-dom";
+import Particle from './components/Particle';
 
 function App() {
   return (

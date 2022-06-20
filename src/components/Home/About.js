@@ -5,34 +5,55 @@ const About = () => {
         {
             id: "01",
             heading: "Digital Branding",
-            desc: "Lorem ipsum dolor sit amet, provid adipisicing elit. Aliquam dolorum nu illo similique! Impedit.",
+            pro: <>
+                <progress class="progress progress-success w-56" value="10" max="100"></progress>
+                <progress class="progress progress-success w-56" value="40" max="100"></progress>
+                <progress class="progress progress-success w-56" value="70" max="100"></progress>
+                <progress class="progress progress-success w-56" value="100" max="100"></progress>
+            </>
         },
         {
             id: "02",
             heading: "Team Management",
-            desc: "Lorem ipsum dolor sit amet, provid adipisicing elit. Aliquam dolorum nu illo similique! Impedit.",
+            pro: <>
+                <progress class="progress progress-primary w-56" value="10" max="100"></progress>
+                <progress class="progress progress-primary w-56" value="40" max="100"></progress>
+                <progress class="progress progress-primary w-56" value="70" max="100"></progress>
+                <progress class="progress progress-primary w-56" value="100" max="100"></progress>
+            </>
         },
         {
             id: "03",
             heading: "Creative Mind",
-            desc: "Lorem ipsum dolor sit amet, provid adipisicing elit. Aliquam dolorum nu illo similique! Impedit.",
+            pro: <>
+                <progress class="progress progress-error w-56" value="10" max="100"></progress>
+                <progress class="progress progress-error w-56" value="40" max="100"></progress>
+                <progress class="progress progress-error w-56" value="70" max="100"></progress>
+                <progress class="progress progress-error w-56" value="100" max="100"></progress>
+            </>
+
         },
     ]
     return (
         <div className='lg:grid grid-cols-3 gap-8 bg-black'>
-           
+
             {
-                data.map((item)=>{
-                    return(
+                data.map((item) => {
+                    return (
                         <div className='p-12' data-aos="zoom-in-left">
                             <h1 className='text-4xl text-[#38d16a] font-bold'>{item.id}</h1>
                             <h2 className='text-white text-2xl font-mono font-bold'>{item.heading}</h2>
-                            <p className='text-gray-300'><small>{item.desc}</small></p>
+                            <div>
+                                {
+                                    item.pro
+                                }
+                            </div>
                         </div>
                     )
                 })
             }
-           
+
+
         </div>
     );
 };

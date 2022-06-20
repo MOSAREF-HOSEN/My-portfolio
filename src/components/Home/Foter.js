@@ -1,9 +1,13 @@
 import React from 'react';
+import Particle from '../Particle';
 
 const Foter = () => {
+   
     return (
         <div>
+
             <footer class="footer footer-center p-10  text-base-content bg-black">
+                {/* <Particle></Particle> */}
                 <div class="grid grid-flow-col gap-4">
                     <a class="link link-hover">About us</a>
                     <a class="link link-hover">Contact</a>
