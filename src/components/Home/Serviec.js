@@ -58,12 +58,12 @@ const Serviec = () => {
          font-bold text-3xl text-[#38d16a] mt-4'>My Servives</h2>
             <div className='lg:grid grid-cols-4 gap-6 mt-4'>
                 {
-                    data.map(pd => {
+                    data.map((pd,index) => {
                         return (
-                            <div data-aos="flip-left" class="shadow-xl rounded-lg bg-[#1A3C40]  ">
-                                <div class="py-auto flex justify-center items-center rounded ">
+                            <div key={index} data-aos="flip-left" className="shadow-xl rounded-lg bg-[#1A3C40]  ">
+                                <div className="py-auto flex justify-center items-center rounded ">
                                     <img src={pd.img} alt="" />
-                                    <h2 class=" text-2xl uppercase text-bold text-green-500 text-center">{pd.name}</h2>
+                                    <h2 className=" text-2xl uppercase text-bold text-green-500 text-center">{pd.name}</h2>
 
                                 </div>
                             </div>

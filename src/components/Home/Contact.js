@@ -1,5 +1,5 @@
 import React from 'react';
-import pop from '../../img/39353.jpg'
+import pop from '../../img/ba-6.jpg'
 const Contact = () => {
     return (
         <div id='contac' style={{width:'100%', height:'100%',

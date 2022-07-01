@@ -5,14 +5,14 @@ import { loadFull } from "tsparticles";
 const Particle = () => {
 
     const particlesInit = async (main) => {
-        console.log(main);
+        // console.log(main);
 
       
         await loadFull(main);
     };
 
     const particlesLoaded = (container) => {
-        console.log(container);
+        // console.log(container);
     };
 
     return (
@@ -78,7 +78,7 @@ const Particle = () => {
                                 enable: true,
                                 area: 800,
                             },
-                            value: 80,
+                            value: 40,
                         },
                         opacity: {
                             value: 0.5,
